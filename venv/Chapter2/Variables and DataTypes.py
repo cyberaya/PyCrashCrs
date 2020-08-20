@@ -1,3 +1,7 @@
+message = "hello world!"
+print (message)
+
+
 first_name = "Ada"
 last_name = "Love"
 
@@ -14,5 +18,3 @@ favorite_language = favorite_language.rstrip()
 print (favorite_language)
 
 
-message = "hello world!"
-print (message)
