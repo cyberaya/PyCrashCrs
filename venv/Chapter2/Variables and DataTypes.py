@@ -15,6 +15,8 @@ print(f"\n\tHello, {full_name.title()}!")
 #Removing whitespace
 favorite_language = 'python '
 favorite_language = favorite_language.rstrip()
-print (favorite_language)
+print (favorite_language+ "\n")
 
-
+name = "Albert Einstein"
+string1 = '"A person who never made a mistake never tried anything new."'
+print (name + " once said, " + string1)
