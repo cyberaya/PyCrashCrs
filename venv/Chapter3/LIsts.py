@@ -7,3 +7,8 @@
 
 bicycles = ['trek', 'cannondale', 'redline', 'specialized']
 print(bicycles)
+# Lists are ordered collections, so you can access any element in a list by telling Python the index (position).
+print (bicycles[2])
+print("\n")
+dogs = ['GoldenDoodle', 'German Shepherd', 'Lab', 'Dalmatian']
+print(dogs)
