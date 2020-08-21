@@ -38,3 +38,9 @@ print("This is the largest number in the list.")
 print(max(sum_ova_million),"\n")
 print("This is the total sum of the list.")
 print(sum(sum_ova_million),"\n")
+
+# Odd Numbers: Use the third argument of the range() function to make a list of the odd numbers from 1 to 20.
+# Use a for loop to print each number.
+odd_numbers = list(range(1, 21, 2))
+for odds in odd_numbers:
+    print(odds)
