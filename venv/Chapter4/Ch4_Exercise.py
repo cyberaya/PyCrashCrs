@@ -28,6 +28,18 @@ print(sum(sum_ova_million),"\n")
 
 # Odd Numbers: Use the third argument of the range() function to make a list of the odd numbers from 1 to 20.
 # Use a for loop to print each number.
+print("This is a for loop of odds from 1-20")
 odd_numbers = list(range(1, 21, 2))
 for odds in odd_numbers:
-    print(odds)
+    print(odds,"\n")
+
+#Threes: Make a list of the multiples of 3 from 3 to 30.
+# Use a for loop to print the numbers in your list.
+print("This is a for loop counting every 3rd digit from 1-30")
+threes_company = list(range(3, 31, 3))
+for every_3 in threes_company:
+    print(every_3,"\n")
+
+# Cube Comprehension: Use a list comprehension to generate a list of the first 10 cubes.
+cubes = [value**3 for value in range(1,11)]
+print(cubes)
