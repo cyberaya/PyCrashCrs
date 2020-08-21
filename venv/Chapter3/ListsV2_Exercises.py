@@ -22,3 +22,25 @@ print(f"Please see our updated list of guests:", dinner_guests)
 
 print(f"Thank you for accepting the invitation so late Mr.", dinner_guests[3])
 
+# You just found a bigger dinner table, so now more space is available. Think of three more guests to invite to dinner.
+# Start with your program from Exercise 3-4 or Exercise 3-5.
+# Add a print() call to the end of your program informing people that you found a bigger dinner table.
+# Use insert() to add one new guest to the beginning of your list.
+# Use insert() to add one new guest to the middle of your list.
+# Use append() to add one new guest to the end of your list.
+# Print a new invitation message.
+
+print(f"Hello everyone, we are pleased to announce that we have found A bigger venue for our dinner this evening.")
+print("Since our venue is bigger, we have added 3 new guests to the list.")
+print(f"updated list:", dinner_guests.insert(0,'Kanye West'))
+print(f"updated list2:", dinner_guests.insert(3,'Taylor Swift'))
+print(dinner_guests.append('Bill Gates'))
+print(f"Please check out the updated guest invitation list:", dinner_guests)
+
+print(dinner_guests.pop())
+print(dinner_guests)
+
+del dinner_guests[3]
+print(dinner_guests)
+
+
