@@ -14,3 +14,20 @@ for magician in magicians:
 
     print(f"{magician.title()}, that was a great trick!")
     print(f"I can't wait to see your next trick, {magician.title()}.\n")
+
+print("Thank you, everyone. That was a great magic show!")
+
+print("_________________________________________________________________________")
+
+programs = ['Python', 'Java', 'NodeJS', 'C++']
+for program in programs:
+        print(program)
+        print(f"I really enjoy coding in {program}!\n")
+print("I really love programing!")
+print("_________________________________________________________________________")
+
+operating_systems = ['Linux', 'Windows', 'MacOS']
+for os in operating_systems:
+    print(os)
+    print(f"I have become more and more proficient with {os} as the years pass by.\n")
+print("But I still like Linux the best!")
