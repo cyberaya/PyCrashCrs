@@ -14,3 +14,18 @@ for player in players[:3]:
     print(player,"\n")
 
 print('_____COPYING LISTS_____')
+#The code below makes a copy of a list, in this example we use a list of fave foods. Our friend likes the same food.
+my_foods = ['pizza', 'falafel', 'carrot cake']
+friends_foods = my_foods[:]
+
+print("My fave foods are")
+print(my_foods)
+
+print("\nMy friends fave foods are:")
+print(friends_foods,"\n")
+#By appending each lists, we add a different food to both lists to prove that they are indeed separate lists.
+#Thanks to [:] we can produce two separate lists.
+my_foods.append('chicken wings')
+friends_foods.append('Tacos')
+print(my_foods)
+print(friends_foods)
