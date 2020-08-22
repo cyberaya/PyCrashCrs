@@ -30,4 +30,9 @@ operating_systems = ['Linux', 'Windows', 'MacOS']
 for os in operating_systems:
     print(os)
     print(f"I have become more and more proficient with {os} as the years pass by.\n")
-print("But I still like Linux the best!")
+print("But I still like Linux the best!\n")
+
+
+randomList = ['item1', 'item2']
+for randoms in randomList:
+    print(randoms)
