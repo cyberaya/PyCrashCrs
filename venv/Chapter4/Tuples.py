@@ -34,3 +34,8 @@ dimensions = (400,200)
 print("\nModified dimensions:")
 for dimension in dimensions:
     print(dimension)
+
+
+randomTuple = ('never', 'change')
+for randd in randomTuple:
+    print(randd)
