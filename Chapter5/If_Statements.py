@@ -56,3 +56,10 @@ if age_2 >= 21 or age_3 >=21:
 else:
     print(False)
 
+#in this example the test outputs as True because age_3 passes the test.
+age_2 = 18
+age_3 = 24
+if age_2 >= 21 or age_3 >=21:
+    print(True)
+else:
+    print(False)
