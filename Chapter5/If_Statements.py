@@ -62,4 +62,20 @@ age_3 = 24
 if age_2 >= 21 or age_3 >=21:
     print(True)
 else:
+    print(False,'\n')
+
+print('\nCHECKING TO SEE WHETEHER A VALUE IS IN A LIST_________________')
+#The technique below using in is useful because you can test to check if the value pepperoni already exists in the list.
+requested_toppings = ['mushrooms', 'onions', 'pineapples']
+if 'mushrooms' in requested_toppings:
+    print(True)
+
+if 'pepperoni' in requested_toppings:
     print(False)
+
+print('\nCHECKING TO SEE WHETEHER A VALUE IS NOT IN A LIST_________________')
+
+banned_users = ['andrew', 'carolina', 'david']
+user = 'marie'
+if user not in banned_users:
+    print(f'{user.title()} is not banned...')
