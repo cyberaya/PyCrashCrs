@@ -22,5 +22,18 @@ elif age <18:
 else:
     print('Your admission cost is $40.')
 
+#Another example:
+
+age = 21
+if age <18:
+    price = 150
+elif age  >= 21:
+    price = 100
+else:
+    price = 75
+print(f'\nThe price for your insurance is ${price}.')
+
+
+
 
 
