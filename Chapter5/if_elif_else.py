@@ -22,16 +22,19 @@ elif age <18:
 else:
     print('Your admission cost is $40.')
 
-#Another example:
+#Another example, with more elif blocks:
 
 age = 21
 if age <18:
     price = 150
-elif age  >= 21:
+elif age >= 21:
     price = 100
+
+elif age >=50:
+    price = 50
 else:
     price = 75
-print(f'\nThe price for your insurance is ${price}.')
+print(f'\nThe price for your monthly insurance is ${price}.')
 
 
 
