@@ -101,3 +101,25 @@ elif age <=65:
     print('This is an adult!')
 elif age <=2:
     print('This is a baby!')
+print('\n')
+
+#Favorite Fruit:
+# Make a list of your favorite fruits.
+# Then write a series of independent if statements that check for certain fruits in your list.
+# Make a list of your three favorite fruits and call it favorite_fruits .
+# Write five if statements.
+# Each should check whether a certain kind of fruit is in your list.
+# If the fruit is in your list, the if block should print a statement, such as You really like bananas!
+
+favorite_fruits = ['strawberry', 'mango', 'pineapple']
+
+if 'strawberry' in favorite_fruits:
+    print('You really like', favorite_fruits[0],'!')
+if 'grapes' in favorite_fruits:
+    print('Adding grapes!')
+if 'mango' in favorite_fruits:
+    print('You really like', favorite_fruits[1],'!')
+if 'kiwi' in favorite_fruits:
+    print('Adding kiwi!')
+if 'pineapple' in favorite_fruits:
+    print('You really like', favorite_fruits[1],'!')
