@@ -37,6 +37,23 @@ else:
 print(f'\nThe price for your monthly insurance is ${price}.')
 
 
+print("\n#TESTING MULTIPLE CONDITIONS\n")
+
+#Sometimes it is important to check all of the  conditions of interest.
+#In this case, you should use a series of simple if statements with no elif/else blocks.
+#This technique makes more sense when more than 1 condition could be true.
 
 
+requested_toppings = ['mushrooms', 'extra cheese']
 
+if 'mushrooms' in requested_toppings:
+    print('Adding',requested_toppings[0])
+if 'pepperoni' in requested_toppings:
+    print('Adding pepperoni!')
+if 'extra cheese' in requested_toppings:
+    print('Adding', requested_toppings[1])
+
+print('\nFinished making your pizza!')
+
+#This code would not work properly if we used an if - elif - else block
+#Because the code would stop running after only one test passes.
